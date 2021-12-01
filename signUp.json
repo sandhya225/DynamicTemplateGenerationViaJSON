@@ -1,0 +1,36 @@
+[
+    {
+        "page": "Sign Up" ,
+        "fields" : [
+            {
+                "field_type": "text",
+                "field_id" : "input_Text_Field1", 
+                "field_label":"First Name",
+                "field_placeholder": "First Name", 
+                "field_value":""
+            },
+            {
+                "field_type": "text",
+                "field_id" : "input_Text_Field2", 
+                "field_label":"Last Name",
+                "field_placeholder": "Last Name", 
+                "field_value":""
+            },
+            {
+                "field_type": "text",
+                "field_id" : "input_Text_Field3", 
+                "field_label":"Address",
+                "field_placeholder": "Address", 
+                "field_value":""
+            },
+            {
+                "field_type": "password",
+                "field_id" : "input_PWD_Field", 
+                "field_label":"Password",
+                "field_placeholder": "Password", 
+                "field_value":""
+            }
+            
+        ]
+    }
+]

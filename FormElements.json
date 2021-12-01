@@ -1,0 +1,102 @@
+[  {  "page":"Inquiry Screen",
+       "fields": [{
+            "field_type": "text",
+            "field_id" : "input_Text_Field", 
+            "field_label":"Input Text Field",
+            "field_placeholder": "Enter the Name", 
+            "field_value":""
+        },
+        {
+            "field_type": "number",
+            "field_id" : "input_Number_Field", 
+            "field_label":"Input Number Field",
+            "field_placeholder": "Enter Number", 
+            "field_value":""
+        },
+        {
+            "field_type": "range",
+            "field_id" : "input_Range_Field", 
+            "field_label":"Input Range Field",
+            "field_placeholder": "Enter Number", 
+            "field_value":"10"
+        },
+        {
+            "field_type": "date",
+            "field_id" : "input_Date_Field", 
+            "field_label":"Input Date Field",
+            "field_placeholder": "Enter Date", 
+            "field_value":""
+        },
+        {
+            "field_type": "datetime-local",
+            "field_id" : "input_DateTime_Field", 
+            "field_label":"Input Date Time Local Field",
+            "field_placeholder": "Enter Date", 
+            "field_value":""
+        },
+        {
+            "field_type": "email",
+            "field_id" : "input_Email_Field", 
+            "field_label":"Input Email Field",
+            "field_placeholder": "Enter Mail", 
+            "field_value":""
+        },
+        {
+            "field_type": "radio",
+            "field_id" : "input_Radio_Field", 
+            "field_label":"Input Radio Button",
+            "field_placeholder": "Gender", 
+            "field_value":""
+        },
+        {
+            "field_type": "checkbox",
+            "field_id" : "input_check_Field", 
+            "field_label":"Input Check Field",
+            "field_placeholder": "Enter Check", 
+            "field_value":""
+        },
+        {
+            "field_type": "password",
+            "field_id" : "input_Psw_Field", 
+            "field_label":"Input Password Field",
+            "field_placeholder": "Enter Password", 
+            "field_value":"sandy"
+        },
+        {
+            "field_type": "time",
+            "field_id" : "input_Time_Field", 
+            "field_label":"Input Time Field",
+            "field_placeholder": "Enter Time", 
+            "field_value":""
+        },
+        {
+            "field_type": "url",
+            "field_id" : "input_url_Field", 
+            "field_label":"Input Url Field",
+            "field_placeholder": "Enter URL", 
+            "field_value":""
+        },
+        {
+            "field_type": "week",
+            "field_id" : "input_Week_Field", 
+            "field_label":"Input  Week Field",
+            "field_placeholder": "Enter Week", 
+            "field_value":""
+        },
+        {
+            "field_type": "select",
+            "field_id" : "input_Select_Field", 
+            "field_label":"Input  Select Field",
+            "field_placeholder": "", 
+            "field_value":"",
+            "field_options":[ {
+                "option_label": "Bus",
+                "option_value":"B"
+            }, {
+                "option_label": "Car",
+                "option_value":"C"
+            }]
+        }
+       ]
+    } 
+]
