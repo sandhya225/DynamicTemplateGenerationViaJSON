@@ -4,7 +4,8 @@
             "field_id" : "input_Text_Field", 
             "field_label":"Input Text Field",
             "field_placeholder": "Enter the Name", 
-            "field_value":""
+            "field_value":"",
+            "requiredFlag" : "true"
         },
         {
             "field_type": "number",
@@ -96,6 +97,27 @@
                 "option_label": "Car",
                 "option_value":"C"
             }]
+        },
+        {
+            "field_type": "button",
+            "field_id" : "input_btn_Field", 
+            "field_label":"Clear",
+            "field_placeholder": "", 
+            "field_value":""
+        },
+        {
+            "field_type": "Submit",
+            "field_id" : "input_Sbt_Field", 
+            "field_label":"Submit",
+            "field_placeholder": "", 
+            "field_value":""
+        },
+        {
+            "field_type": "display",
+            "field_id" : "input_display_Field", 
+            "field_label":"Summary Field",
+            "field_placeholder": "", 
+            "field_value":""
         }
        ]
     } 

@@ -9,7 +9,6 @@ import './App.css';
 function SignUp(){
     const [data]=useState(FormJSON[0]);
   const [elements, setElements] = useState(data.fields);
-  console.log(elements);
   const handleChange = (id : string, event : React.ChangeEvent<HTMLInputElement>
     ) => {
       const newElements = [ ...elements ]
@@ -36,10 +35,10 @@ function SignUp(){
                   <div className="row g-3"> 
                    
                       {elements.map(ele=> <div className="col-md-6"> <DynamicElements data={ele} /> </div>)}
-                   
-                  </div>
+                    </div>
                     
                  </FormContext.Provider>
+                 <input type="submit" />
                             </form>
 
         );

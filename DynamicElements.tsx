@@ -14,6 +14,8 @@ type fieldData= {
     field_value ?: string ;
     field_options ?:{option_label:string,
       option_value:string}[]; 
+      requiredFlag ?:string;
+
     };
 }
 const DynamicElements = (field: fieldData ) => {
@@ -26,6 +28,7 @@ const DynamicElements = (field: fieldData ) => {
           field_label={field.data.field_label}
           field_placeholder={field.data.field_placeholder}
           field_value={field.data.field_value} 
+          requiredFlag={field.data.requiredFlag}
         />
       );
       
@@ -99,6 +102,27 @@ const DynamicElements = (field: fieldData ) => {
           field_value={field.data.field_value} 
         />
       );
+      case "button":
+        return (
+          <InputType
+            field_type={field.data.field_type}
+            field_id={field.data.field_id}
+            field_label={field.data.field_label}
+            field_placeholder={field.data.field_placeholder}
+            field_value={field.data.field_value} 
+          />
+        );
+        case "submit":
+          return (
+            <InputType
+              field_type={field.data.field_type}
+              field_id={field.data.field_id}
+              field_label={field.data.field_label}
+              field_placeholder={field.data.field_placeholder}
+              field_value={field.data.field_value} 
+            />
+          );
+
       case "checkbox":
         return (
           <RadioField
